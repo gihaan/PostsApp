@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.example.gihan.postsapp.PostActivity">
+
+
+    <ImageButton
+        android:id="@+id/post_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#ffffff"
+
+        android:scaleType="centerCrop"
+        android:src="@mipmap/add_btn"
+        tools:layout_editor_absoluteY="0dp"
+
+        />
+
+    <EditText
+        android:id="@+id/post_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/input_outline"
+        android:padding="15dp"
+        android:hint="Post Tiltle    ..."
+        tools:layout_editor_absoluteY="231dp" />
+
+    <EditText
+        android:id="@+id/post_descrption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/post_title"
+        android:layout_alignStart="@+id/post_title"
+        android:layout_below="@+id/post_title"
+        android:background="@drawable/input_outline"
+        android:hint="Post Descrption   ..."
+        android:padding="15dp"
+        tools:layout_editor_absoluteY="263dp" />
+
+    <Button
+        android:id="@+id/supmit_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/colorPrimary"
+        android:hint="Supmit post"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="461dp"
+
+
+        />
+
+
+</RelativeLayout>

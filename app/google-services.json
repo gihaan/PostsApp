@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1088773634050",
+    "firebase_url": "https://simpleblog-c5004.firebaseio.com",
+    "project_id": "simpleblog-c5004",
+    "storage_bucket": "simpleblog-c5004.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088773634050:android:b0ec332fb0938e17",
+        "android_client_info": {
+          "package_name": "com.example.gihan.postsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1088773634050-d8gl6apmk6n0u1auvf61t0nd73fagj32.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBulQ4xxk3dsVJhP2hz1Wvhv5AG3w6_Zmo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
